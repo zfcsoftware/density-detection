@@ -36,5 +36,7 @@ console.log(check)
 The start_index variable is not sent in this query. If it was sent as 2, it would return an array with only 1 variable. 
 
 **item:** This variable returns multiple occurrences within the content. 
+
 **count:** This variable returns the number of times the fragment is used in the content.
+
 **parseCount:** This variable returns how many words the fragment consists of.
