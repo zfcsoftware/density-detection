@@ -81,7 +81,8 @@ const detect = ({ text = '', start_index = 1 }) => {
         while_index++
     }
     response = response.sort((a, b) => b.parseCount - a.parseCount);
-    return response
+    let uniqueItems = Array.from(new Map(response.map(item => [item['item'], item])).values());
+    return uniqueItems
 }
 
 module.exports = {

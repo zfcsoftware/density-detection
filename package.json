@@ -1,6 +1,6 @@
 {
   "name": "density-detection",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "This library analyzes the words and phrases in a text and presents the most repetitive words and phrases with the number of repetitions. The difference from other libraries is that it focuses on words and phrases, not words.",
   "main": "index.js",
   "scripts": {
