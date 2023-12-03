@@ -58,10 +58,10 @@ const parsedText = ({ text = '', count = 1 }) => {
     return response_data
 }
 
-const detect = ({ text = '' }) => {
+const detect = ({ text = '', start_index = 1 }) => {
     var response = []
     var while_status = true
-    var while_index = 1
+    var while_index = start_index
     while (while_status) {
         var check_index = parsedText({
             text: text,
